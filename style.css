@@ -1,4 +1,4 @@
-/* html {
+html {
     background-color: aqua;
     color: black;
     font-family:sans-serif;
@@ -7,5 +7,20 @@
 body {
     display: block;
     margin: 8px;
-} */
+    
+}
 
+.shop {
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: left;
+}
+
+.shop-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.4em;
+    border-bottom: 1px solid #333;
+}
