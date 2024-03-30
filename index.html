@@ -13,48 +13,50 @@
     <div id="numberOfThings"></div>
     <div id="thingsPerSecond"></div>
     <div id="buttonHolder">
-        <button id="frogButton"> <img src="froggo.PNG">Dont Click Here</button>
+        <button id="frogButton"> <img src="froggo.PNG"></button>
+    </div>
+    <div>
         <p>Frogs: <span id="frogSpan">0</span></p>
         <p>Frogs Per Second: <span id="fpsSpan">0</span></p>
     </div>
     <div id="errorMessage" style="display: none;">Not Enough Things</div>
-    <div id="shopcommon">
-        <div class="shop-item">
-            <div>0</div>
-            <div>Frog Tank</div>
-            <div>£ 10</div>
-            <div>+1</div>
-            <button id="tankButton">Buy</button>
-        </div>
-        <div class="shop-item">
-            <div>0</div>
-            <div>Vivarium</div>
-            <div>£ 100</div>
-            <div>+10</div>
-            <button id="vivButton">Buy</button>
-        </div>
-        <div class="shop-item">
-            <div>0</div>
-            <div>Pond</div>
-            <div>£ 1000</div>
-            <div>+100</div>
-            <button id="pondButton">Buy</button>
-        </div>
-        <div class="shop-item">
-            <div>0</div>
-            <div>Lake</div>
-            <div>£ 10000</div>
-            <div>+1000</div>
-            <button id="lakeButton">Buy</button>
-        </div>
-        <div class="shop-item">
-            <div>0</div>
-            <div>Frog Farm</div>
-            <div>£ 100000</div>
-            <div>+10000</div>
-            <button id="farmButton">Buy</button>
-        </div>
-    </div>
+    <table id="shopCommon">
+        <tr>
+            <td>0</td>
+            <td>Frog Tank</td>
+            <td>£ 10</td>
+            <td>+1</td>
+            <td><button id="tankButton">Buy</button></td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Vivarium</td>
+            <td>£ 100</td>
+            <td>+10</td>
+            <td><button id="vivButton">Buy</button></td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Pond</td>
+            <td>£ 1000</td>
+            <td>+100</td>
+            <td><button id="pondButton">Buy</button></td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Lake</td>
+            <td>£ 10000</td>
+            <td>+1000</td>
+            <td><button id="lakeButton">Buy</button></td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Frog Farm</td>
+            <td>£ 100000</td>
+            <td>+10000</td>
+            <td><button id="farmButton">Buy</button></td>
+        </tr>
+    </table>
     <button id="resetButton">Reset</button>
 
 
